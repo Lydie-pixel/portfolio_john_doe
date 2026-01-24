@@ -1,5 +1,5 @@
-import Banniere from "../components/Banniere";
-import ServiceCard from "../components/services/ServiceCard";
+import Banniere from "../../components/Banniere";
+import ServiceCard from "../../components/services/ServiceCard";
 
 function Services() {
   return (

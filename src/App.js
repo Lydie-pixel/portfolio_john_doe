@@ -4,11 +4,11 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Home from "./pages/Home";
-import Services from "./pages/Services";
-import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
-import Legal from "./pages/Legal";
+import Home from "./pages/js/Home";
+import Services from "./pages/js/Services";
+import Portfolio from "./pages/js/Portfolio";
+import Contact from "./pages/js/Contact";
+import Legal from "./pages/js/Legal";
 
 function App() {
   return (

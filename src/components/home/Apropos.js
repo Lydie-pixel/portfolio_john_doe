@@ -3,7 +3,6 @@ import John from "../../assets/img/john-doe-about.jpg";
 function Apropos() {
   return (
     <section>
-      <h2>A propos</h2>
       <img src={John} alt="Photo de John Doe" />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iaculis,

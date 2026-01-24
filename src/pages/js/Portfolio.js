@@ -1,11 +1,11 @@
-import Card from "../components/portfolio/Card";
-import projet1 from "../../src/assets/img/portfolio/fresh-food.jpg";
-import projet2 from "../../src/assets/img/portfolio/restaurant-japonais.jpg";
-import projet3 from "../../src/assets/img/portfolio/espace-bien-etre.jpg";
-import projet4 from "../../src/assets/img/portfolio/seo.jpg";
-import projet5 from "../../src/assets/img/portfolio/coder.jpg";
-import projet6 from "../../src/assets/img/portfolio/screens.jpg";
-import Banniere from "../components/Banniere";
+import Card from "../../components/portfolio/Card";
+import projet1 from "../../../src/assets/img/portfolio/fresh-food.jpg";
+import projet2 from "../../../src/assets/img/portfolio/restaurant-japonais.jpg";
+import projet3 from "../../../src/assets/img/portfolio/espace-bien-etre.jpg";
+import projet4 from "../../../src/assets/img/portfolio/seo.jpg";
+import projet5 from "../../../src/assets/img/portfolio/coder.jpg";
+import projet6 from "../../../src/assets/img/portfolio/screens.jpg";
+import Banniere from "../../components/Banniere";
 
 function Realisations() {
   return (
