@@ -5,9 +5,15 @@ function Footer() {
         <div className="row">
           <div className="col-md-4">
             <h5>John Doe</h5>
-            <p>40 rue Laure Diebold 69009 Lyon, France</p>
-            <p>10 20 30 40 50</p>
-            <p>john.doe@gmail.com</p>
+            <p>
+              40 rue Laure Diebold <br></br>
+              69009 Lyon, France<br></br>
+              10 20 30 40 50<br></br>
+              john.doe@gmail.com
+            </p>
+            <i className="bi-github"></i>
+            <i className="bi bi-twitter"></i>
+            <i className="bi bi-linkedin"></i>
           </div>
 
           <div className="col-md-4">
@@ -24,12 +30,12 @@ function Footer() {
           <div className="col-md-4">
             <h5>Dernières réalisations</h5>
             <ul className="list-unstyled">
-              <li>Projet 1</li>
-              <li>Projet 2</li>
-              <li>Projet 3</li>
-              <li>Projet 4</li>
-              <li>Projet 5</li>
-              <li>Projet 6</li>
+              <li>Fresh Food</li>
+              <li>Restaurant Akira</li>
+              <li>Espace bien-être</li>
+              <li>SEO</li>
+              <li>Création d'un API</li>
+              <li>Maquette d'un site</li>
             </ul>
           </div>
         </div>

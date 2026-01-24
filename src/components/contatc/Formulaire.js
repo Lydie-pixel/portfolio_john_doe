@@ -2,22 +2,22 @@ function Formulaire() {
   return (
     <div className="formulaire">
       <form>
-        <input type="text" id="nom" placeholder="Votre nom"></input>
+        <input type="text" id="nom" placeholder="Votre nom" />
 
-        <input type="text" id="mail" placeholder="Votre adresse email"></input>
+        <input type="email" id="mail" placeholder="Votre adresse email" />
 
         <input
-          type="text"
+          type="tel"
           id="ntelephone"
           placeholder="Votre numéro de téléphone"
-        ></input>
+        />
 
-        <input type="text" id="sujet" placeholder="Sujet"></input>
+        <input type="text" id="sujet" placeholder="Sujet" />
 
         <textarea id="message" placeholder="Votre message"></textarea>
-      </form>
 
-      <button type="submit">Envoyer</button>
+        <button type="submit">Envoyer</button>
+      </form>
     </div>
   );
 }
