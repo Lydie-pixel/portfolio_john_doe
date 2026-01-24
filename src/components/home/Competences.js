@@ -1,9 +1,18 @@
-function Competences() {
+function Competences({ reussite }) {
   return (
-    <section>
-      <h2>Mes compétences</h2>
-      <p>(Progress bars à venir)</p>
-    </section>
+    <div
+      className="progress"
+      role="progressbar"
+      aria-label="Success example"
+      aria-valuenow={reussite}
+      aria-valuemin="0"
+      aria-valuemax="100"
+    >
+      <div
+        className="progress-bar bg-success"
+        style={{ width: reussite + "%" }}
+      ></div>
+    </div>
   );
 }
 

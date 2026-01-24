@@ -1,0 +1,11 @@
+/*Police de texte*/
+* {
+  font-family: nunito sans-serif;
+}
+
+/*Titre en gras*/
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}

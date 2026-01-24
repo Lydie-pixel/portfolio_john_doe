@@ -1,4 +1,4 @@
-import Accordeon from "..//components/legal/Accordeon";
+import Accordeon from "../../components/legal/Accordeon";
 
 function Legal() {
   return (

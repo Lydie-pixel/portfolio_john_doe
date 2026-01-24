@@ -1,5 +1,5 @@
-import Formulaire from "../components/contatc/Formulaire";
-import Coordonnee from "../components/contatc/Coordonnee";
+import Formulaire from "../../components/contatc/Formulaire";
+import Coordonnee from "../../components/contatc/Coordonnee";
 
 function Contact() {
   return (
