@@ -6,6 +6,7 @@ import projet4 from "../../../src/assets/img/portfolio/seo.jpg";
 import projet5 from "../../../src/assets/img/portfolio/coder.jpg";
 import projet6 from "../../../src/assets/img/portfolio/screens.jpg";
 import Banniere from "../../components/Banniere";
+import "../css/portfolio.css";
 
 function Realisations() {
   return (
@@ -14,41 +15,65 @@ function Realisations() {
       <h1>Portfolio</h1>
       <div>Voici quelques-une de mes réalisations.</div>
 
-      <Card
-        title="Fresh Food"
-        image={projet1}
-        description="Site de vente de produit frais en ligne"
-      />
+      <section className="section">
+        <div className="container">
+          <div className="row g-4">
+            <div className="col-md-4">
+              <Card
+                title="Fresh Food"
+                image={projet1}
+                description="Site de vente de produit frais en ligne"
+                outil="Site réalié avec PHP et MySQL"
+              />
+            </div>
 
-      <Card
-        title="Restaurant Akira"
-        image={projet2}
-        description="Site de vente de produit frais en ligne"
-      />
+            <div className="col-md-4">
+              <Card
+                title="Restaurant Akira"
+                image={projet2}
+                description="Site de vente de produit frais en ligne"
+                outil="Site réalié avec WordPress"
+              />
+            </div>
 
-      <Card
-        title="Espace bien-être"
-        image={projet3}
-        description="Site de vente de produit frais en ligne"
-      />
+            <div className="col-md-4">
+              <Card
+                title="Espace bien-être"
+                image={projet3}
+                description="Site de vente de produit frais en ligne"
+                outil="Site réalié avec LARAVEL"
+              />
+            </div>
 
-      <Card
-        title="SEO"
-        image={projet4}
-        description="Amélioration du référencement d'un site de e-commerce"
-      />
+            <div className="col-md-4">
+              <Card
+                title="SEO"
+                image={projet4}
+                description="Amélioration du référencement d'un site de e-commerce"
+                outil="Utilisation des outils SEO"
+              />
+            </div>
 
-      <Card
-        title="Création d'un API"
-        image={projet5}
-        description="Création d'un API RESTFULL publique"
-      />
+            <div className="col-md-4">
+              <Card
+                title="Création d'un API"
+                image={projet5}
+                description="Création d'un API RESTFULL publique"
+                outil="PHP - SYMFONY"
+              />
+            </div>
 
-      <Card
-        title="Maquette d'un site web"
-        image={projet6}
-        description="Création du prototype d'un site"
-      />
+            <div className="col-md-4">
+              <Card
+                title="Maquette d'un site web"
+                image={projet6}
+                description="Création du prototype d'un site"
+                outil=" Réalisé avec FIGMA"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
   );
 }

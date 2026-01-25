@@ -1,0 +1,32 @@
+/*HERO*/
+.hero {
+  height: 100vh;
+  background-image: url("../../assets/img/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  color: white;
+}
+
+/* Contenu au-dessus de l’image */
+.hero-content {
+  z-index: 1;
+}
+
+/* Image sombre */
+.hero::before {
+  content: "";
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/*MODALE*/
+.modale {
+  background-color: #000;
+}

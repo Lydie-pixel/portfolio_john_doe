@@ -2,14 +2,14 @@ import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
-    <header className="bg-light">
+    <header className="bg-dark text-white">
       <nav className="navbar navbar-expand-lg container">
         <a className="navbar-brand" href="/">
-          John Doe
+          JONH DOE
         </a>
 
         <button
-          className="navbar-toggler"
+          className="navbar-toggler nav-underline text-white"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -21,27 +21,27 @@ function Header() {
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <NavLink className="nav-link" to="/">
-                Accueil
+                ACCUEIL
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/services">
-                Services
+                SERVICES
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/portfolio">
-                Portfolio
+                PORTFOLIO
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/contact">
-                Contact
+                CONTACT
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/legal">
-                Mentions légales
+                MENTION LEGALES
               </NavLink>
             </li>
           </ul>
