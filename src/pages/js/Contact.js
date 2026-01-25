@@ -25,6 +25,19 @@ function Contact() {
           <h2 className="border-bottom border-primary">Mes coordonnées</h2>
           <section className="section">
             <Coordonnee />
+            <section className="section">
+              <div className="map-container">
+                <iframe
+                  title="Localisation"
+                  src="https://www.google.com/maps?q=40%20rue%20Laure%20Diebold%2069009%20Lyon&output=embed"
+                  width="100%"
+                  height="300"
+                  style={{ border: 0 }}
+                  allowFullScreen=""
+                  loading="lazy"
+                ></iframe>
+              </div>
+            </section>
           </section>
         </div>
       </div>

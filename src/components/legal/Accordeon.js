@@ -48,7 +48,7 @@ function Accordeon() {
           <div className="accordion-body">
             <strong>alwaysdata</strong>
             <div>91 rue du Faubourg Saint-Honoré, 75008 Paris</div>
-            <i className="bi bi-globe2"></i> www.alwaysdata.com
+            <i className="bi bi-globe2 me-2"></i> www.alwaysdata.com
           </div>
         </div>
       </div>

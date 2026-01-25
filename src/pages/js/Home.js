@@ -6,10 +6,9 @@ import "../css/home.css";
 
 function Home() {
   return (
-    <main>
+    <div>
       <Hero />
       <Modale />
-
       <div className="container my-5">
         <div className="row">
           <div className="col-md-6">
@@ -34,7 +33,7 @@ function Home() {
           </div>
         </div>
       </div>
-    </main>
+    </div>
   );
 }
 

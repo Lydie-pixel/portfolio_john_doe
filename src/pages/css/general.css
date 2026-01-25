@@ -79,7 +79,7 @@ footer .nav-link {
 }
 
 /* retire les espaces entre les lignes */
-.nav {
+.nav-link {
   display: flex;
   gap: 1rem;
 }
