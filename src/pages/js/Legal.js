@@ -4,8 +4,10 @@ import "../css/legal.css";
 function Legal() {
   return (
     <div className="container">
-      <h1>Mentions légales</h1>
-      <Accordeon />
+      <h1 className="border-bottom border-primary">Mentions légales</h1>
+      <section className="section">
+        <Accordeon />
+      </section>
     </div>
   );
 }

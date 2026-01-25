@@ -1,7 +1,7 @@
 function Formulaire() {
   return (
     <div className="formulaire">
-      <form>
+      <form className="row g-3">
         <input type="text" id="nom" placeholder="Votre nom" />
 
         <input type="email" id="mail" placeholder="Votre adresse email" />
@@ -16,7 +16,11 @@ function Formulaire() {
 
         <textarea id="message" placeholder="Votre message"></textarea>
 
-        <button type="submit">Envoyer</button>
+        <div className="col-12 text-center">
+          <button type="submit" className="btn btn-primary">
+            Envoyer
+          </button>
+        </div>
       </form>
     </div>
   );

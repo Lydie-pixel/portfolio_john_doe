@@ -7,12 +7,15 @@ function Footer() {
         <div className="row">
           <div className="col-md-4">
             <h5>John Doe</h5>
-            <p>
-              40 rue Laure Diebold <br></br>
-              69009 Lyon, France<br></br>
-              10 20 30 40 50<br></br>
+            <span>
+              40 rue Laure Diebold <br />
+              69009 Lyon, France
+              <br />
+              10 20 30 40 50
+              <br />
               john.doe@gmail.com
-            </p>
+              <br />
+            </span>
             <i className="bi-github text-secondary"></i>
             <i className="bi bi-twitter text-secondary"></i>
             <i className="bi bi-linkedin text-secondary"></i>
@@ -22,7 +25,7 @@ function Footer() {
             <h5>Liens</h5>
             <ul className="list-unstyled">
               <li>
-                <NavLink className="nav-link" to="/Home">
+                <NavLink className="nav-link" to="/">
                   Accueil
                 </NavLink>
               </li>

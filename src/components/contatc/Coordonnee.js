@@ -2,7 +2,7 @@ function Coordonnee() {
   return (
     <div className="coordonnee">
       <h3>John Doe</h3>
-      <p>
+      <div>
         <i className="bi bi-map"></i>
         40 Rue Laure Diebold, 69009 Lyon <br></br>
         <i className="bi bi-geo-alt"></i>
@@ -11,7 +11,7 @@ function Coordonnee() {
         10 20 30 40 50 <br></br>
         <i className="bi-envelope-at"></i>
         john.doe@gmail.com
-      </p>
+      </div>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-function Competences({ title, reussite, couleur }) {
+function Competences({ reussite, couleur }) {
   return (
     <div
       className="progress"
@@ -8,7 +8,6 @@ function Competences({ title, reussite, couleur }) {
       aria-valuemin="0"
       aria-valuemax="100"
     >
-      <span>{title} </span>
       <div
         className={`progress-bar bg-${couleur}`}
         style={{ width: reussite + "%" }}

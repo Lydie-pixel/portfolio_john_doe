@@ -9,26 +9,28 @@ function Home() {
     <main>
       <Hero />
       <Modale />
-      <div className="container">
-        <div className="row g-4">
-          <div className="col-md-4">
-            <h2>A propos</h2>
+
+      <div className="container my-5">
+        <div className="row">
+          <div className="col-md-6">
+            <h2 className="border-bottom border-primary">A propos</h2>
             <Apropos />
           </div>
-        </div>
 
-        <div className="row g-4">
-          <div className="col-md-4">
-            <h2>Mes Compétences</h2>
-            <Competences title="HTML5 90%" couleur="danger" reussite="90" />
-            <Competences title="CSS3 80%" couleur="info" reussite="80" />
-            <Competences
-              title="JAVASCRIPT 70%"
-              couleur="warning"
-              reussite="70"
-            />
-            <Competences title="PHP 60%" couleur="success" reussite="60" />
-            <Competences title="REACT 50%" couleur="primary" reussite="50" />
+          <div className="col-md-6">
+            <h2 className="border-bottom border-primary">Mes Compétences</h2>
+            <section className="section">
+              <span>HTML5 90%</span>
+              <Competences couleur="danger" reussite="90" />
+              <span>CSS3 80%</span>
+              <Competences couleur="info" reussite="80" />
+              <span>JAVASCRIPT 70%</span>
+              <Competences couleur="warning" reussite="70" />
+              <span>PHP 60%</span>
+              <Competences couleur="success" reussite="60" />
+              <span>REACT 50%</span>
+              <Competences couleur="primary" reussite="50" />
+            </section>
           </div>
         </div>
       </div>
