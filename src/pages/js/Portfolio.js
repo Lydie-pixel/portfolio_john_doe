@@ -6,6 +6,7 @@ import projet4 from "../../../src/assets/img/portfolio/seo.jpg";
 import projet5 from "../../../src/assets/img/portfolio/coder.jpg";
 import projet6 from "../../../src/assets/img/portfolio/screens.jpg";
 import Banniere from "../../components/Banniere";
+import "../css/portfolio.css";
 
 function Realisations() {
   return (

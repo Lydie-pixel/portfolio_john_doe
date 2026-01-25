@@ -1,11 +1,12 @@
 import Banniere from "../../components/Banniere";
 import ServiceCard from "../../components/services/ServiceCard";
+import "../css/service.css";
 
 function Services() {
   return (
     <div className="container">
       <Banniere />
-      <h1>Services</h1>
+      <h1>Mon offre de services</h1>
       <div>Voici les prestations sur lesquelles je peux intervenir</div>
 
       <div className="container">
