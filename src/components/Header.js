@@ -2,14 +2,14 @@ import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
-    <header className="bg-light">
+    <header className="bg-dark text-white">
       <nav className="navbar navbar-expand-lg container">
         <a className="navbar-brand" href="/">
           John Doe
         </a>
 
         <button
-          className="navbar-toggler"
+          className="navbar-toggler nav-underline text-white"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"

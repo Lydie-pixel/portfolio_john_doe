@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 function Footer() {
   return (
     <footer className="bg-dark text-white py-4">
@@ -11,19 +13,39 @@ function Footer() {
               10 20 30 40 50<br></br>
               john.doe@gmail.com
             </p>
-            <i className="bi-github"></i>
-            <i className="bi bi-twitter"></i>
-            <i className="bi bi-linkedin"></i>
+            <i className="bi-github text-secondary"></i>
+            <i className="bi bi-twitter text-secondary"></i>
+            <i className="bi bi-linkedin text-secondary"></i>
           </div>
 
-          <div className="col-md-4">
+          <div className="nav col-md-4">
             <h5>Liens</h5>
             <ul className="list-unstyled">
-              <li>Accueil</li>
-              <li>Services</li>
-              <li>Portfolio</li>
-              <li>Me contacter</li>
-              <li>Mentions légales</li>
+              <li>
+                <NavLink className="nav-link" to="/Home">
+                  Accueil
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className="nav-link" to="/services">
+                  Services
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className="nav-link" to="/portfolio">
+                  Portfolio
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className="nav-link" to="/contact">
+                  Me contacter
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className="nav-link" to="/legal">
+                  Mentions légales
+                </NavLink>
+              </li>
             </ul>
           </div>
 
