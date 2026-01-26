@@ -7,8 +7,13 @@ function Services() {
     <div>
       <Banniere />
       <div className="container">
-        <h1>Mon offre de services</h1>
-        <div>Voici les prestations sur lesquelles je peux intervenir</div>
+        <section className="section">
+          <h1>Mon offre de services</h1>
+          <p className="section-subtitle">
+            Voici les prestations sur lesquelles je peux intervenir
+          </p>
+          <div className="blue-line mx-auto"></div>
+        </section>
 
         <section className="section">
           <div className="container">

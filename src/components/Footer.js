@@ -5,7 +5,7 @@ function Footer() {
     <footer className="bg-dark text-white py-4">
       <div className="container">
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-4 mb-4 mb-md-0">
             <h5>John Doe</h5>
             <span>
               40 rue Laure Diebold <br />
@@ -16,12 +16,14 @@ function Footer() {
               john.doe@gmail.com
               <br />
             </span>
-            <i className="bi-github text-secondary"></i>
-            <i className="bi bi-twitter text-secondary"></i>
-            <i className="bi bi-linkedin text-secondary"></i>
+            <div className="footer-icons">
+              <i className="bi-github"></i>
+              <i className="bi bi-twitter"></i>
+              <i className="bi bi-linkedin"></i>
+            </div>
           </div>
 
-          <div className="nav col-md-4">
+          <div className="col-md-4 mb-4 mb-md-0">
             <h5>Liens</h5>
             <ul className="list-unstyled">
               <li>
@@ -52,15 +54,39 @@ function Footer() {
             </ul>
           </div>
 
-          <div className="col-md-4">
+          <div className="col-md-4 mb-4 mb-md-0">
             <h5>Dernières réalisations</h5>
             <ul className="list-unstyled">
-              <li>Fresh Food</li>
-              <li>Restaurant Akira</li>
-              <li>Espace bien-être</li>
-              <li>SEO</li>
-              <li>Création d'un API</li>
-              <li>Maquette d'un site</li>
+              <li>
+                <NavLink className="nav-link" to="/portfolio#fresh-food">
+                  Fresh Food
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className="nav-link" to="/portfolio#akira">
+                  Restaurant Akira
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to="/portfolio#bien-etre" className="nav-link">
+                  Espace bien-être
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to="/portfolio#seo" className="nav-link">
+                  SEO
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to="/portfolio#api" className="nav-link">
+                  Création d'un API
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to="/portfolio#maquette" className="nav-link">
+                  Maquette d'un site
+                </NavLink>
+              </li>
             </ul>
           </div>
         </div>

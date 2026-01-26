@@ -46,9 +46,13 @@ function Accordeon() {
           data-bs-parent="#accordionExample"
         >
           <div className="accordion-body">
-            <strong>alwaysdata</strong>
+            <h3>alwaysdata</h3>
             <div>91 rue du Faubourg Saint-Honoré, 75008 Paris</div>
-            <i className="bi bi-globe2 me-2"></i> www.alwaysdata.com
+            <i className="bi bi-globe2 me-2"></i>{" "}
+            <a target="_blank" href="www.alwaysdata.com">
+              {" "}
+              www.alwaysdata.com
+            </a>
           </div>
         </div>
       </div>
@@ -73,11 +77,33 @@ function Accordeon() {
         >
           <div className="accordion-body">
             <div>
-              Ce site a été réalisé par John Doe, étudiant au Centre Européen de
-              formation.
+              <h3>Crédits</h3>
+              Ce site a été réalisé par John Doe, étudiant au{" "}
+              <a
+                target="_blank"
+                href="https://www.centre-europeen-formation.fr/"
+              >
+                Centre Européen de formation.
+              </a>
             </div>
-            <div>Les images utilisées sont libres de droits Pixabay.</div>
-            <div>Icônes fournies par Freepik - Flaticon.</div>
+            <div>
+              Les images utilisées sont libres de droits et ont été obtenues sur
+              le site{" "}
+              <a target="_blank" href="https://pixabay.com/fr/">
+                Pixabay.
+              </a>
+            </div>
+            <div>
+              {" "}
+              Le favicon de ce site a été formie par
+              <a
+                target="_blank"
+                href="https://www.flaticon.com/de/kostenlose-icons/john-doe"
+              >
+                {" "}
+                John doe Icons créées par Freepik - Flaticon
+              </a>
+            </div>
           </div>
         </div>
       </div>

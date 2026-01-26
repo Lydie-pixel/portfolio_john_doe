@@ -7,8 +7,9 @@
 }
 
 /*Police de texte*/
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900&display=swap");
 * {
-  font-family: nunito sans-serif;
+  font-family: nunito sans;
 }
 
 /*Titre en gras*/
@@ -22,8 +23,7 @@ a:hover {
   text-decoration: underline;
 }
 
-h1,
-p {
+h1 {
   text-align: center;
 }
 
@@ -66,12 +66,26 @@ header .navbar-toggler-icon {
   filter: invert(1);
 }
 
+.active-link {
+  text-decoration: underline;
+}
+
 /*======================FOOTER======================*/
 /* Icônes réseaux */
+footer i {
+  font-size: 1.5rem;
+  margin-right: 15px;
+  color: gray;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-icons {
+  margin-top: 10px;
+}
+
 footer i:hover {
   color: white;
-  margin-right: 10px;
-  font-size: 1.2rem;
 }
 
 footer .nav-link {
@@ -79,9 +93,26 @@ footer .nav-link {
 }
 
 /* retire les espaces entre les lignes */
-.nav-link {
-  display: flex;
-  gap: 1rem;
+footer .nav-link {
+  color: white;
+  padding: 1px 0;
+}
+
+footer .nav-link:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer h5 {
+  margin-bottom: 10px;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+footer li {
+  text-align: left;
 }
 
 footer {
@@ -99,5 +130,20 @@ footer {
 
 /*======================GENERAL======================*/
 .section {
-  padding: 50px 0;
+  padding: 30px 0;
+}
+
+.section-subtitle {
+  text-align: center;
+}
+/*======================CARD======================*/
+
+.card {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+  background-color: #f8f9fa;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  transform: translateY(-5px);
 }

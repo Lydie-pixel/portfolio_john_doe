@@ -18,12 +18,12 @@ function Modale() {
       aria-hidden="true"
     >
       <div className="modal-dialog modal-lg modal-dialog-centered">
-        <div className="modal-content">
+        <div className="modal-content bg-dark text-white">
           <div className="modal-header">
             <h5 className="modal-title">Mon profil GitHub</h5>
             <button
               type="button"
-              className="btn-close"
+              className="btn-close btn-close-white"
               data-bs-dismiss="modal"
               aria-label="Close"
             ></button>
@@ -42,7 +42,7 @@ function Modale() {
 
               {/* Infos */}
               <div className="col-md-8">
-                <p>
+                <p className="border-bottom border-secondary pb-2 mb-3">
                   <i className="bi bi-person me-2"></i>
                   <a
                     href={githubUser.html_url}
@@ -52,18 +52,21 @@ function Modale() {
                     {githubUser.name}
                   </a>
                 </p>
+                <p className="border-bottom border-secondary pb-2 mb-3">
+                  <i className="bi bi-geo-alt"></i>
+                </p>
 
-                <p>
+                <p className="border-bottom border-secondary pb-2 mb-3">
                   <i className="bi bi-card-text me-2"></i>
                   {githubUser.bio}
                 </p>
 
-                <p>
+                <p className="border-bottom border-secondary pb-2 mb-3">
                   <i className="bi bi-box me-2"></i>
                   Repositories : {githubUser.public_repos}
                 </p>
 
-                <p>
+                <p className="border-bottom border-secondary pb-2 mb-3">
                   <i className="bi bi-people me-2"></i>
                   Followers : {githubUser.followers}
                 </p>
