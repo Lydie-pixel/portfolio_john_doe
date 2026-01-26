@@ -12,13 +12,18 @@ function Realisations() {
   return (
     <section>
       <Banniere />
-      <h1>Portfolio</h1>
-      <div>Voici quelques-une de mes réalisations.</div>
+      <section className="section">
+        <h1>Portfolio</h1>
+        <p className="section-subtitle">
+          Voici quelques-une de mes réalisations.
+        </p>
+        <div className="blue-line mx-auto"></div>
+      </section>
 
       <section className="section">
         <div className="container">
           <div className="row g-4">
-            <div className="col-md-4">
+            <div className="col-md-4" id="fresh-food">
               <Card
                 title="Fresh Food"
                 image={projet1}
@@ -27,7 +32,7 @@ function Realisations() {
               />
             </div>
 
-            <div className="col-md-4">
+            <div className="col-md-4" id="akira">
               <Card
                 title="Restaurant Akira"
                 image={projet2}
@@ -36,7 +41,7 @@ function Realisations() {
               />
             </div>
 
-            <div className="col-md-4">
+            <div className="col-md-4" id="bien-etre">
               <Card
                 title="Espace bien-être"
                 image={projet3}
@@ -45,7 +50,7 @@ function Realisations() {
               />
             </div>
 
-            <div className="col-md-4">
+            <div className="col-md-4" id="seo">
               <Card
                 title="SEO"
                 image={projet4}
@@ -54,7 +59,7 @@ function Realisations() {
               />
             </div>
 
-            <div className="col-md-4">
+            <div className="col-md-4" id="api">
               <Card
                 title="Création d'un API"
                 image={projet5}
@@ -63,7 +68,7 @@ function Realisations() {
               />
             </div>
 
-            <div className="col-md-4">
+            <div className="col-md-4" id="maquette">
               <Card
                 title="Maquette d'un site web"
                 image={projet6}

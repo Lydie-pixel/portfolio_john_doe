@@ -26,7 +26,20 @@
   background: rgba(0, 0, 0, 0.4);
 }
 
-/*MODALE*/
-.modale {
-  background-color: #000;
+.blue-line-full {
+  width: 100%;
+  height: 5px;
+  background-color: #0d6efd;
+  margin: 1rem 0 2rem 0;
+}
+
+.progress {
+  margin-bottom: 1rem;
+}
+
+.content-card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }

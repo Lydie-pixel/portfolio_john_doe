@@ -14,7 +14,7 @@ function Formulaire() {
 
         <input type="text" id="sujet" placeholder="Sujet" />
 
-        <textarea id="message" placeholder="Votre message"></textarea>
+        <textarea id="message" placeholder="Votre message" rows="14"></textarea>
 
         <div className="col-12 text-center">
           <button type="submit" className="btn btn-primary">

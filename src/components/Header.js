@@ -2,9 +2,9 @@ import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
-    <header className="bg-dark text-white">
-      <nav className="navbar navbar-expand-lg container">
-        <a className="navbar-brand" href="/">
+    <header className="bg-dark text-white sticky-top">
+      <nav className="navbar navbar-expand-lg container-fluid px-0">
+        <a className="navbar-brand ps-3" href="/">
           JONH DOE
         </a>
 
@@ -18,29 +18,65 @@ function Header() {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto">
+          <ul className="navbar-nav ms-auto pe-3">
             <li className="nav-item">
-              <NavLink className="nav-link" to="/">
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link text-white fw-bold active-link"
+                    : "nav-link text-white"
+                }
+              >
                 ACCUEIL
               </NavLink>
             </li>
+
             <li className="nav-item">
-              <NavLink className="nav-link" to="/services">
+              <NavLink
+                to="/services"
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link text-white fw-bold active-link"
+                    : "nav-link text-white"
+                }
+              >
                 SERVICES
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/portfolio">
+              <NavLink
+                to="/portfolio"
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link text-white fw-bold active-link"
+                    : "nav-link text-white"
+                }
+              >
                 PORTFOLIO
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/contact">
+              <NavLink
+                to="/contact"
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link text-white fw-bold active-link"
+                    : "nav-link text-white"
+                }
+              >
                 CONTACT
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/legal">
+              <NavLink
+                to="/legal"
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link text-white fw-bold active-link"
+                    : "nav-link text-white"
+                }
+              >
                 MENTION LEGALES
               </NavLink>
             </li>
