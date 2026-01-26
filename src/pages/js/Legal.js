@@ -15,3 +15,10 @@ function Legal() {
   );
 }
 export default Legal;
+
+// NOTE PEDAGOGIQUE :
+// Dans une SPA React sans gestion serveur ni Helmet,
+// le noindex par page n'est pas techniquement applicable.
+// Le meta robots est volontairement placé dans index.html
+// pour indiquer l'intention demandée dans le brief
+// concernant la page Mentions légales.

@@ -1,7 +1,8 @@
 /*HERO*/
 .hero {
-  height: 100vh;
+  height: 85vh;
   background-image: url("../../assets/img/hero-bg.jpg");
+  opacity: 0.7;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,16 +15,17 @@
   color: white;
 }
 
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero h2 {
+  font-size: 1.5rem;
+}
+
 /* Contenu au-dessus de l’image */
 .hero-content {
   z-index: 1;
-}
-
-/* Image sombre */
-.hero::before {
-  content: "";
-  inset: 0;
-  background: rgba(0, 0, 0, 0.4);
 }
 
 .blue-line-full {
@@ -42,4 +44,9 @@
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/*A Propos*/
+.img {
+  width: 100%;
 }

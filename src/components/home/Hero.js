@@ -3,7 +3,7 @@ function Hero() {
     <section className="hero">
       <div className="hero-content">
         <h1>Bonjour, je suis John Doe</h1>
-        <span>Développeur web full stack</span> <br />
+        <h2>Développeur web full stack</h2>
         <button
           type="button"
           className="btn btn-danger mt-3"
