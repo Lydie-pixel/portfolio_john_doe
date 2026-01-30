@@ -88,3 +88,13 @@ src/
 ### Installation
 ```bash
 npm install
+
+### Lancement
+```bash
+npm run dev
+
+### Build
+```bash
+npm run build
+
+
