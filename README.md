@@ -10,13 +10,13 @@ Il présente les services, réalisations et informations de contact d’un déve
 Ce projet a pour objectif de mettre en pratique les compétences suivantes :
 
 - Utilisation de React.js pour créer des interfaces utilisateur
-- Mise en place d’un routing avec React Router
+- Mise en place du routing avec React Router
 - Utilisation de Bootstrap pour le responsive design
 - Structuration d’un projet front-end
 - Respect des bonnes pratiques HTML, CSS et JavaScript
-- Gestion des composants et de la réutilisabilité
-- Intégration d’une modale et d’éléments interactifs
-- Prise en compte des règles de référencement et de législation (mentions légales)
+- Gestion des composants et réutilisabilité
+- Intégration d’une modale avec récupération de données via API (fetch)
+- Prise en compte des règles de référencement et de législation
 
 ---
 
@@ -47,7 +47,7 @@ Des captures d’écran des validations HTML et CSS W3C sont fournies dans le d�
 - Les composants (Header, Footer, pages) sont injectés dynamiquement dans le DOM via JavaScript.
 - Certaines erreurs ou avertissements W3C proviennent de scripts injectés automatiquement par CodeSandbox (favicon SVG, BrowserFS).
 - Le HTML généré par React est conforme aux standards.
-
+  
 ---
 
 ### Auteur
@@ -60,6 +60,7 @@ Dans le cadre de la formation Développeur Web.
 
 - React.js
 - React Router DOM
+- Vite
 - Bootstrap 5
 - Bootstrap Icons
 - HTML5 / CSS3
@@ -70,11 +71,11 @@ Dans le cadre de la formation Développeur Web.
 ## Structure du projet
 
 src/
-│── assets/ # Images et portfolio
+│── assets/ # Images et ressources
 │── components/ # Composants réutilisables
-│── pages/ # Pages principales du site et CSS
-│── App.js # Configuration des routes
-│── index.js # Point d’entrée de l’application
+│── pages/ # Pages principales + CSS
+│── App.jsx # Configuration du routing
+│── main.jsx # Point d’entrée
 
 
 ---
@@ -86,15 +87,12 @@ src/
 - npm
 
 ### Installation
-```bash
-npm install
+Cloner le dépôt, puis installer les dépendances, et enfin lancer le projet.
 
-### Lancement
 ```bash
+git clone <url-du-repo>
+cd john_doe_vite
+npm install
 npm run dev
 
-### Build
-```bash
-npm run build
-
-
+---
