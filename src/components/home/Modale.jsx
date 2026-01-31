@@ -1,14 +1,15 @@
+import React, { useState, useEffect } from "react";
+
 function Modale() {
-  const githubUser = {
-    name: "John Doe",
-    login: "github-john-doe",
-    avatar_url: "https://avatars.githubusercontent.com/u/19842736?v=4",
-    html_url: "https://github.com/github-john-doe",
-    bio: "As we all know, John Doe's identity is unknown. I just wanted to contribute without being known.",
-    public_repos: 1,
-    followers: 19,
-    following: 0,
-  };
+  const [githubUser, setGitUser] = useState("");
+
+  useEffect(() => {
+    fetch("https://api.github.com/users/github-john-doe")
+      .then((resp) => resp.json())
+      .then((data) => {
+        setGitUser(data);
+      });
+  }, []);
 
   return (
     <div
@@ -28,7 +29,6 @@ function Modale() {
               aria-label="Close"
             ></button>
           </div>
-
           <div className="modal-body">
             <div className="row align-items-center">
               {/* Image */}
